@@ -1,4 +1,4 @@
-<h1><B>Test Star Wars Search Pportal With Cypress</B></h1>
+<h1><B>Test Star Wars Search Portal With Cypress</B></h1>
 
 <h3><B>Assignment</B></h3>
 
