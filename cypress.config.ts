@@ -17,12 +17,18 @@ async function setupNodeEvents(
 }
 
 export default defineConfig({
-  videosFolder: 'output/cypress/videos',
-  screenshotsFolder: 'output/cypress/screenshots',
+  videosFolder: 'report/cypress/videos',
+  screenshotsFolder: 'report/cypress/screenshots',
   fixturesFolder: false,
-  reporter: 'cypress-mochawesome-reporter',
+  reporter: 'mochawesome',
   reporterOptions: {
-    reportDir: 'output/cypress/report',
+    reportDir: 'report/cypress/report',
+    "charts": true,
+    "reportPageTitle": "Test",
+    "embeddedScreenshots": true,
+    "inlineAssets": true,
+    "html": true,
+    "json": true,
     overwrite: false
   },
   env: {
