@@ -40,3 +40,8 @@ and please view the test result under ./report/cypress
 2. The search result can't be cleared by using empty str search. 
 
 <B>Bug fix</B>
+please checkout branch "bugs", this branch contains the bug fix for the issues above.
+```
+git checkout bugs
+```
+and run the app again
