@@ -32,6 +32,9 @@ ng e2e
 ```
 and please view the test result under ./report/cypress
 
+4. Test report:
+The report will be reported under ./report/cypress/report, both .json and .html format are available for further usage(integration of jira reporting) and checking it manually. 
+Notes: there are 2 test cases failed which are expected because there are 2 bugs.
 
 <h3><B>Bugs</B></h3>
 
