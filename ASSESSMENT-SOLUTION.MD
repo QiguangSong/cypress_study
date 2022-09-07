@@ -44,4 +44,4 @@ please checkout branch bugs, this branch contains the bug fix for the issues abo
 ```
 git checkout bugs
 ```
-and run the app again
+and serve the app again
