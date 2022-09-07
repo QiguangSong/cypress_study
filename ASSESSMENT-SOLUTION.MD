@@ -1,4 +1,4 @@
-<h1><B>Test Star Wars Search Portal With Cypress</B></h1>
+<h1><B>Test Star Wars Search Pportal With Cypress</B></h1>
 
 <h3><B>Assignment</B></h3>
 
@@ -32,7 +32,6 @@ ng e2e
 ```
 and please view the test result under ./report/cypress
 
-4. Bug investigation & fix
 
 <h3><B>Bugs</B></h3>
 
@@ -41,3 +40,8 @@ and please view the test result under ./report/cypress
 2. The search result can't be cleared by using empty str search. 
 
 <B>Bug fix</B>
+please checkout branch bugs, this branch contains the bug fix for the issues above.
+```
+git checkout bugs
+```
+and run the app again
