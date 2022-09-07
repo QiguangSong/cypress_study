@@ -32,7 +32,6 @@ ng e2e
 ```
 and please view the test result under ./report/cypress
 
-4. Bug investigation & fix
 
 <h3><B>Bugs</B></h3>
 
